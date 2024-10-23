@@ -1,0 +1,66 @@
+/* NAVBAR SECTION CSS START */
+body{
+    font-family: "poppines" serif;
+}
+header{
+    background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
+}
+.navbar-brand .text-primary{
+    color: #0a58ca !important;
+}
+.nav-link{
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: #0a58ca;
+  }
+.btn-primary {
+    background-color: #0a58ca !important;
+    border: none;
+    border-radius: 5px;
+  }
+  .btn-primary:hover {
+    background-color: #257dfd !important;
+  }
+  .navbar-nav li{
+    margin-left: 20px;
+  }
+.dropdown-menu {
+    position: absolute;
+    transform: translate(-30px, 10px);
+}
+.text-color{
+    color: #257dfd;
+}
+/* NAVBAR SECTION CSS END */
+/* KEY-FEAUTURES-SECTION CSS START */
+.icons {
+    color: #0a58ca;
+    background-color: #f2f2f2;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 12px;
+    border-radius: 50px;
+  }
+  .blue-bg {
+    background-color: #0a58ca;
+    color: #fff;
+  }
+  .hover-card{
+    transition: all .3s;
+  }
+  .hover-card:hover{
+    background-color: #0a58ca;
+    color: #fff;
+    
+  }
+
+/* KEY-FEAUTURES-SECTION CSS END */
+
+/* OUR-PRODUCT-SECTION CSS HERE  */
+.margin-top{
+    margin: 80px 0;
+}
+
+ /* OUR-PRODUCT-SECTION CSS END  */

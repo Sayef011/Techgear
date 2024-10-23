@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 Example</title>
+
+    <!-- LINKING GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+
+    <!-- LINKING BOOSTRAP CSS FILE -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- LINKING MAIN CSS FILE -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- NAVBAR SECTION START -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-2 text-primary" href="#"
+            >TECHGEARS</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          ></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto fs-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#key-features">Features</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#product"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Product
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="ms-0">
+                    <a class="dropdown-item" href="#product">Action</a>
+                  </li>
+                  <li class="ms-0">
+                    <a class="dropdown-item" href="#product">Another action</a>
+                  </li>
+                  <li class="ms-0">
+                    <a class="dropdown-item" href="#product"
+                      >Something else here</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link mt-3 mt-lg-0 btn-primary text-white px-4"
+                  href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAVBAR SECTION END -->
+
+      <!-- HEADER HERO SECTION CSS START -->
+      <section id="hero-part">
+        <div class="container pt-5">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-lg-6">
+              <h1 class="display-4 fw-bold">
+                <span class="text-color">Discover</span> the Future of Tech
+              </h1>
+              <p class="lead py-4">
+                Explore our latest gadgets and accessories designed to elevate
+                your digital lifestyle.
+              </p>
+              <button class="btn btn-primary py-3 px-5">
+                <a class="text-white fw-bold text-decoration-none fs-5" href="#"
+                  >Shop Now</a
+                >
+              </button>
+            </div>
+            <div class="col-12 col-lg-6">
+              <img
+                src="./assets/hero.webp"
+                alt="tech gear vd headset image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HEADER HERO SECTION CSS END -->
+    </header>
+
+    <!-- About SECTION HERE -->
+    <section id="About">
+      <div class="container mt-5 py-5">
+        <div class="row align-items-center g-5">
+          <div class="col-12 col-lg-5">
+            <img
+              src="assets/img-1.webp"
+              alt=""
+              class="img-fluid mx-auto d-block"
+            />
+          </div>
+          <div class="col-12 col-lg-7 py-5 px-5">
+            <h2 class="text-primary fw-bold fs-1">About TechGear Hub</h2>
+            <p class="mt-4">
+              TechGear Hub is at the forefront of technology innovation,
+              curating a collection of the latest gadgets and accessories to
+              elevate your digital lifestyle. We believe in the power of
+              technology to enhance everyday experiences, and our mission is to
+              bring cutting-edge products to tech enthusiasts around the world.
+            </p>
+            <p class="mb-4">
+              With a focus on quality, functionality, and style, TechGear Hub
+              sources products from leading manufacturers and emerging tech
+              innovators. Our team of experts carefully selects each item to
+              ensure it meets our high standards and aligns with the
+              ever-evolving needs of our diverse community of customers.
+            </p>
+            <button class="btn btn-primary px-5 py-3 d-inline-block">
+              <a
+                class="text-decoration-none text-white fs-4 fw-semibold"
+                href="#"
+                >Read More About Now</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About SECTION END -->
+
+    <!-- KEY-FEAUTURES-SECTION START HERE -->
+    <section id="key-features">
+      <div class="container py-5">
+        <div class="row pb-5">
+          <div class="col-12">
+            <h2 class="text-primary fw-bold fs-1 text-center">Key Features</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card p-4 hover-card">
+              <ion-icon name="bulb-outline" class="icons"></ion-icon>
+              <h3>Innovative Technology</h3>
+              <p class="lead">
+                Explore products featuring the latest and most innovative
+                technologies.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <div class="card p-4 blue-bg">
+              <ion-icon
+                name="shield-checkmark-outline"
+                class="icons"
+              ></ion-icon>
+              <h3>Quality Assurance</h3>
+              <p class="lead">
+                Our team ensures that every product meets high-quality
+                performance.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <div class="card p-4 hover-card">
+              <ion-icon name="time-outline" class="icons"></ion-icon>
+              <h3>Timely Delivery</h3>
+              <p class="lead">
+                Experience prompt and reliable delivery services to get your
+                tech gear right now.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY-FEAUTURES-SECTION END -->
+    <!-- OUR-PRODUCT-SECTION HERE -->
+
+    <section id="product">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-12">
+            <h2 class="text-primary fw-bold fs-1 text-center py-5">
+              Our Product
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <nav>
+              <div
+                class="nav nav-tabs justify-content-center"
+                id="nav-tab"
+                role="tablist"
+              >
+                <button
+                  class="nav-link active fs-5 me-2 me-md-4"
+                  id="nav-home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-home"
+                  aria-selected="true"
+                >
+                  All
+                </button>
+                <button
+                  class="nav-link fs-5 me-2 me-md-4"
+                  id="nav-profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-profile"
+                  aria-selected="false"
+                >
+                  Virtual Reality
+                </button>
+                <button
+                  class="nav-link fs-5 me-2 me-md-4"
+                  id="nav-contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-contact"
+                  aria-selected="false"
+                >
+                  Headphones
+                </button>
+              </div>
+            </nav>
+            <div class="tab-content margin-top" id="nav-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="nav-home"
+                role="tabpanel"
+                aria-labelledby="nav-home-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-12 col-lg-4 mb-3">
+                    <img
+                      src="./assets/headphones-1.webp"
+                      alt=""
+                      class="img-fluid d-block mx-auto"
+                    />
+                  </div>
+
+                  <div class="col-12 col-lg-4 mb-3">
+                    <img
+                      src="./assets/vr-1.webp"
+                      alt=""
+                      class="img-fluid d-block mx-auto"
+                    />
+                  </div>
+
+                  <div class="col-12 col-lg-4 mb-3">
+                    <img
+                      src="./assets/vr-2.webp"
+                      alt=""
+                      class="img-fluid d-block mx-auto"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-profile"
+                role="tabpanel"
+                aria-labelledby="nav-profile-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-12 col-lg-4 mb-3">
+                    <img
+                      src="./assets/vr-1.webp"
+                      alt=""
+                      class="img-fluid d-block mx-auto"
+                    />
+                  </div>
+
+                  <div class="col-12 col-lg-4 mb-3">
+                    <img
+                      src="./assets/vr-2.webp"
+                      alt=""
+                      class="img-fluid d-block mx-auto"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-contact"
+                role="tabpanel"
+                aria-labelledby="nav-contact-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-12 col-lg-4 mb-3">
+                    <img
+                      src="./assets/headphones-1.webp"
+                      alt=""
+                      class="img-fluid d-block mx-auto"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OUR-PRODUCT-SECTION END -->
+
+    <!-- Accordion-SECTION START HERE -->
+    <section id="Accordion">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-primary fw-bold fs-1 text-center py-5">
+                        How it works
+                    </h2>
+                  </div>
+            </div>
+
+            <div class="row">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button fs-2 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                         How can I browse and explore products on TechGear Hub?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         <p class="lead">Ordering your favorite tech gear from TechGear Hub is a breeze. Once you've found the perfect product, simply add it to your cart and proceed to checkout. Our secure and efficient checkout process allows you to review your order, enter shipping details, and choose from multiple payment options. Rest assured, your transaction is protected, and your order will be swiftly processed.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-2 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                         What is the ordering process like?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="lead">Ordering your favorite tech gear from TechGear Hub is a breeze. Once you've found the perfect product, simply add it to your cart and proceed to checkout. Our secure and efficient checkout process allows you to review your order, enter shipping details, and choose from multiple payment options. Rest assured, your transaction is protected, and your order will be swiftly processed.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-2 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        How does TechGear Hub ensure customer satisfaction?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="lead">At TechGear Hub, customer satisfaction is our top priority. We are committed to delivering high-quality products and exceptional service. Our team carefully inspects and packages each order, ensuring it reaches you in perfect condition. Additionally, our responsive customer support is ready to assist with any inquiries or concerns you may have. Join our community of satisfied customers who trust TechGear Hub for a seamless and enjoyable shopping experience.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- Accordion-SECTION  END -->
+
+    <!-- FOOTER-SECTION START -->
+    <footer>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12 mt-5">
+                    <p class="text-center text-dark fw-5 fs-5">© 2023 TechGear Hub. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FOOTER-SECTION  END -->
+
+    <!-- LINKING IONICON ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- LINKING JS BOOTSRAP FILE -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
